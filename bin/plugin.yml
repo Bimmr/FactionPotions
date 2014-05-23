@@ -1,0 +1,17 @@
+name: FactionPotions
+description: FactionPotions
+main: sniperzciinema.com.factionpotions.Main
+version: 1.0
+author: SniperzCiinema
+depend: [Factions, mcore]
+commands:
+   FactionPotions:
+      description: The basic command
+      aliases: [fp, factionsp, fpotions]
+      
+permissions:
+   factionpotions.*:
+      default: op
+      children:
+         factionpotions.set: true
+         factionpotions.reset: true
